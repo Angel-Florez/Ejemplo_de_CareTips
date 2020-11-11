@@ -3,7 +3,7 @@ import "./Perfil.css";
 import { Link } from "react-router-dom";
 import Nav from "/src/Components/Navbar.js";
 
-export default function Perfil1() {
+export default function Perfil() {
   return (
     <div className="Perfil1">
       <Nav />
@@ -21,7 +21,20 @@ export default function Perfil1() {
           alt=""
           height="10px"
         />
+        <div>
+          <label >Tu nombre</label>
+          <input type="email" class="form-control" placeholder="Nombre" />
+        </div>
+        <div>
+          <label>Tu edad</label>
+          <input type="number" class="form-control" placeholder="Edad" />
+        </div>
+        <hr />
+        <Link to="/">
+          <button>Cerrar sesión</button>
+        </Link>
       </div>
+      {/*
       <div className="parte-abajo">
         <label></label>
         <input
@@ -32,8 +45,7 @@ export default function Perfil1() {
           type="text"
         />
 
-        <button className="masculino">MASCULINO</button>
-        <button className="femenino">FEMENINO</button>
+        <div />
         <input
           className="edad"
           id="edad"
@@ -48,6 +60,7 @@ export default function Perfil1() {
           </Link>
         </div>
       </div>
+      */}
     </div>
   );
 }
