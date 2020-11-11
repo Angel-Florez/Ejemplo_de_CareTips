@@ -100,7 +100,7 @@ export default function SignIn() {
               </Link>
             </Grid>
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link to="/Registro" variant="body2">
                 {"¿No tienes una cuenta? Regístrate"}
               </Link>
             </Grid>

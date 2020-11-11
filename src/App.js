@@ -39,7 +39,6 @@ class App extends Component {
             <Route path="/Mi_Diario">
               <Diario/>
             </Route>
-
             <Route path="/Perfil">
               <Perfil />
             </Route>
@@ -81,6 +80,9 @@ class App extends Component {
             </Route>
             <Route path="/Entretenimiento">
               <Entret />
+            </Route>
+            <Route path="/Registro">
+              <Registro />
             </Route>
           </div>
         </BrowserRouter>
